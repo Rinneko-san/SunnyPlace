@@ -6,12 +6,39 @@
     <title>Bootstrap サンプル</title>
     <!-- BootStrapのCSSの読み込み -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Bootstrap の導入</h1>
+	  <!--ヘッダー-->
+	  <header>
+		<!-- ナビゲーションバーの外枠 -->
+		<!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> -->
+		<nav class="navbar navbar-expand-md navbar-light fixed-top">
+			<!-- ブランド+メニュー開閉ボタン -->
+			<a class="navbar-brand" href="#"> 
+				Sunny Place
+				<!--<img src="images\SunnyPlace_title.png" alt="ロゴマーク" class="img-fluid"> -->
+			</a>
+			<!--
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarCollapse"
+				aria-controls="navbarCollapse"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>-->
+		</nav>
+	  </header>
  
     <!-- jQueryの読み込み -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+		crossorigin="anonymous">
+	</script>
     <!-- BootStrapのJSの読み込み -->
     <script src="js/bootstrap.min.js"></script>
   </body>
