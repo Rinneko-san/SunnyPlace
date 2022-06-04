@@ -15,3 +15,7 @@
   .navbar {
 	  background-color: #e5e4e6;
   }
+
+  .nav-item {
+	  padding: 20px 20px;
+  }
