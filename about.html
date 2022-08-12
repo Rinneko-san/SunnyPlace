@@ -12,52 +12,6 @@
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 			crossorigin="anonymous"
   	/>
-    <!-- ユーザ定義のCSS,JSの読み込み -->
-		<link href="style.css" rel="stylesheet">
-
-	</head>
-
-	<body>
-		<!--ヘッダー-->
-		<header>
-			<!-- ナビゲーションバーの外枠 -->
-			<nav class="navbar navbar-expand-md navbar-light">
-				<!-- ブランド+メニュー開閉ボタン -->
-				<a class="navbar-brand" href="index.html"> 
-					<img src="images/logoillust.png" width="93" height="63" alt="ロゴマーク">
-					<img src="images/logofont.png" width="206" height="31" alt="ロゴマーク">
-					
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarCollapse"
-					aria-controls="navbarCollapse"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<!-- ナビゲーションと登録ボタンを実装する -->
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html">通称名利用に対応した大学一覧 </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="howto.html">通称名利用申請について </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="about.html">このサイトについて </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="request.html">情報提供フォーム </a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
 		
 		<!-- jQueryの読み込み -->
 		<script 
@@ -77,5 +31,15 @@
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
 		></script>
+    <!-- ユーザ定義のCSS,JSの読み込み -->
+		<link href="style.css" rel="stylesheet">
+		<script src="main.js"></script><!--共通化パーツ読み込み用-->
+
+	</head>
+
+	<body>
+		<!--ヘッダー-->
+		<script>header();</script>
+		
   </body>
 </html>
